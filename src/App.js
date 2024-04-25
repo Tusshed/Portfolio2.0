@@ -303,7 +303,7 @@ function App() {
             <a href="https://x.com/boda_tussh?s=11&t=xcZnsqBYn_NrAUzaMozw-w">
               <i class="fa fa-twitter"></i>
             </a>
-            <a href="www.linkedin.com/in/adeduro-israel-703572234">
+            <a href="https://www.linkedin.com/in/adeduro-israel-703572234">
               <i class="fa fa-linkedin"></i>
             </a>
           </div>
@@ -312,10 +312,14 @@ function App() {
         <div class="footer-right">
           <p>Contact Us</p>
 
-          <form action="#" method="post" id="contact">
-            <input type="text" name="email" placeholder="Email" />
-            <textarea name="message" placeholder="Message"></textarea>
-            <button>Send</button>
+          <form
+            action="https://formsubmit.co/israelmomo50@gmail.com"
+            method="POST"
+            id="contact"
+          >
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
           </form>
         </div>
       </footer>
