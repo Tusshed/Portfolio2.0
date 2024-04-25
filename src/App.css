@@ -343,7 +343,8 @@ img {
 }
 
 .services__button {
-    cursor: pointer;
+    cursor: not-allowed;
+    opacity: 0.6;
 }
 
 .services__modal {
@@ -952,17 +953,17 @@ img {
 }
 
 .inbtn {
-    background-color: rgb(188, 156, 188);
+    background-color: #d9d2e9;
     outline: 1px solid black;
     color: black;
     text-align: center;
-    height: 265px;
+    height: 263px;
     border-radius: 3px;
     margin: 0;
     padding: 0;
     cursor: pointer;
     font-weight: 200;
-    border: 3px solid bisque;
+    border: 3px solid #d6e0d9;
     writing-mode: vertical-rl;
     text-orientation: sideways-right;
 }
@@ -975,6 +976,7 @@ img {
     box-shadow: 3px 4px 0px rgb(0, 0, 0);
     background-color: #07182E;
     color: wheat;
+    text-decoration: none;
 }
 
 .pgbtn {

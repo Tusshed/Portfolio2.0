@@ -2,6 +2,7 @@ import "./App.css";
 import React, { Fragment, useState } from "react";
 import picture from "./img/suitboy.jpg";
 import icon from "./img/favicon.ico";
+import cvv from "./img/Cvv.pdf";
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
@@ -242,11 +243,8 @@ function App() {
               <span className="portfolio__subtitle">Mobile app</span>
               <a href="#">
                 <h2 className="portfolio__title">
-                  New portfolio of work done for a client.
+                  Web based app under construction for a client.
                 </h2>
-              </a>
-              <a href="#" className="button button-link">
-                View detail
               </a>
             </div>
           </div>
@@ -273,7 +271,12 @@ function App() {
                 implementations to life. I offer both design and development
                 services for web applications and websites!
                 <hr />
-                <button className="inbtn">Click</button>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1G5eoFm-0u4Y6q6HFQ4D12n7xFkzGVft5/view?usp=drive_link"
+                >
+                  <button className="inbtn">Click</button>
+                </a>
                 <hr />
                 <hr /> <hr />
               </p>
@@ -297,10 +300,10 @@ function App() {
           <p class="footer-company-name">Tussh © </p>
 
           <div class="footer-icons">
-            <a href="#">
+            <a href="https://x.com/boda_tussh?s=11&t=xcZnsqBYn_NrAUzaMozw-w">
               <i class="fa fa-twitter"></i>
             </a>
-            <a href="#">
+            <a href="www.linkedin.com/in/adeduro-israel-703572234">
               <i class="fa fa-linkedin"></i>
             </a>
           </div>
